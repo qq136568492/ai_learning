@@ -1,0 +1,24 @@
+{
+  "id": "conv-1778560436812-by5r5put5",
+  "providerId": "claude",
+  "title": "我添加了一篇文档",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1778560436821,
+  "updatedAt": 1778643445730,
+  "lastResponseAt": 1778643288430,
+  "sessionId": "32610e66-2eba-42a2-95ef-8ea83cb57526",
+  "providerState": {
+    "providerSessionId": "32610e66-2eba-42a2-95ef-8ea83cb57526"
+  },
+  "currentNote": "llm-wiki/raw/Python3.11_官方文档.md",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 33280,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 1000000,
+    "contextTokens": 33280,
+    "percentage": 3,
+    "contextWindowIsAuthoritative": true
+  }
+}

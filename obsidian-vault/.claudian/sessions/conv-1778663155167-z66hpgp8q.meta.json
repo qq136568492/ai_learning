@@ -1,0 +1,23 @@
+{
+  "id": "conv-1778663155167-z66hpgp8q",
+  "providerId": "claude",
+  "title": "新增了一篇文档，帮我进行ingest",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1778663155167,
+  "updatedAt": 1778665238273,
+  "lastResponseAt": 1778664713111,
+  "sessionId": "b51bcd1e-932a-4db6-9abe-892082b8e53e",
+  "providerState": {
+    "providerSessionId": "b51bcd1e-932a-4db6-9abe-892082b8e53e"
+  },
+  "currentNote": "LLM_Learning/raw/Python3_菜鸟教程.md",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0
+  }
+}

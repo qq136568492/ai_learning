@@ -1,0 +1,22 @@
+{
+  "id": "conv-1778665242152-2oph6457y",
+  "providerId": "claude",
+  "title": "新增了一篇文档，帮我进行ingest",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1778665242152,
+  "updatedAt": 1778726674086,
+  "lastResponseAt": 1778725629138,
+  "sessionId": "4c97498e-fdcd-45b7-a49f-0490feebca39",
+  "providerState": {
+    "providerSessionId": "4c97498e-fdcd-45b7-a49f-0490feebca39"
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0
+  }
+}

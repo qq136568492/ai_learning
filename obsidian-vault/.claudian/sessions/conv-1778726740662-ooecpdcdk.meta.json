@@ -1,0 +1,25 @@
+{
+  "id": "conv-1778726740662-ooecpdcdk",
+  "providerId": "codex",
+  "title": "Ingest 学习地图 into vault",
+  "titleGenerationStatus": "success",
+  "createdAt": 1778726740663,
+  "updatedAt": 1779178823100,
+  "lastResponseAt": 1779178823100,
+  "sessionId": "019e2460-2404-7d90-80aa-3ff26d7712a2",
+  "providerState": {
+    "threadId": "019e2460-2404-7d90-80aa-3ff26d7712a2",
+    "sessionFilePath": "C:\\Users\\Lenovo\\.codex\\sessions\\2026\\05\\14\\rollout-2026-05-14T10-45-40-019e2460-2404-7d90-80aa-3ff26d7712a2.jsonl",
+    "transcriptRootPath": "C:\\Users\\Lenovo\\.codex\\sessions"
+  },
+  "usage": {
+    "inputTokens": 134040,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 132992,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 134040,
+    "percentage": 52,
+    "model": "gpt-5.5"
+  }
+}

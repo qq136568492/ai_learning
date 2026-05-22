@@ -1,0 +1,23 @@
+{
+  "id": "conv-1778643450913-7ni9cykou",
+  "providerId": "claude",
+  "title": "我添加了一篇文档",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1778643450913,
+  "updatedAt": 1778663140357,
+  "lastResponseAt": 1778663076341,
+  "sessionId": "ac910e1d-655d-45f9-ad6a-2f163304103e",
+  "providerState": {
+    "providerSessionId": "ac910e1d-655d-45f9-ad6a-2f163304103e"
+  },
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0,
+    "contextWindowIsAuthoritative": true
+  }
+}

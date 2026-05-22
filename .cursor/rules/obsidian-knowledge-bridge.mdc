@@ -1,0 +1,40 @@
+---
+description: 全局启用 Obsidian 知识库优先检索与问答回写（学习场景）
+alwaysApply: true
+---
+
+# Obsidian Knowledge Bridge
+
+在本工作区中处理用户提问时，默认将 Obsidian 作为本地知识库与学习记录系统。
+
+## 固定路径
+
+- **主 Vault（本机）**：`D:/Obsidian/repository/Obsidian Vault`
+- 索引：`D:/Obsidian/repository/Obsidian Vault/llm-wiki/index.md`
+- 问答记录：`D:/Obsidian/repository/Obsidian Vault/llm-wiki/qa-records.md`
+- 日志：`D:/Obsidian/repository/Obsidian Vault/llm-wiki/log.md`
+- **仓库内回退（Portable）**：`obsidian-vault/LLM_Learning/wiki/` 与 `raw/`（与本仓库同框；若主 Vault 不可用或需可复现实验路径，优先在此检索）。
+
+## 执行规则（默认）
+
+1. 先在可读的主 Vault **或** 仓库根下 `obsidian-vault/**/*.md` 内检索相关笔记，基于命中内容组织答案主干。
+2. 若本地证据不足，再补充外部资料（MCP/Web）并标注为“外部补充”。
+3. 回答中必须分层列出来源：`本地知识库文件路径` + `外部 URL（如有）`。
+4. 每次问答完成后，向 `qa-records.md` 追加记录，并向 `log.md` 追加一条摘要。
+
+## 回写模板
+
+```markdown
+## [YYYY-MM-DD HH:mm:ss] Q: <用户问题>
+- Context: <学习项目/知识块>
+- Hits:
+  - <命中文件路径1>
+- Answer-Summary: <3~6 行摘要>
+- References:
+  - <Vault 文件路径或标题>
+  - <外部 URL（如有）>
+```
+
+## 例外
+
+- 若用户明确要求“本次不写入日志/不使用 Obsidian”，按用户要求跳过并在回复中简短确认。
